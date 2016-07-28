@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.myselftesting.sampleapplication;
+package com.mycompany.myselftesting.String;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;
@@ -42,8 +42,8 @@ public class VowelCounter {
         char[] array = input.toCharArray();
         for (char c : array) {
             int unicode = (int)c;
-            System.out.println("char -->" + c);
-            System.out.println("char unicode -->" + unicode);
+            //System.out.println("char -->" + c);
+           // System.out.println("char unicode -->" + unicode);
             if ((unicode >= 65 && unicode <=90) || (unicode >= 97 && unicode <= 122)) {
                 if (Pattern.matches("[AEIOUaeiou]" , Character.toString(c)))
                     vowels++;

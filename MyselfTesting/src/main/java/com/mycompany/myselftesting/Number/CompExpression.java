@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.myselftesting.sampleapplication;
+package com.mycompany.myselftesting.Number;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
