@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.myselftesting.Alogorithms;
+package com.mycompany.myselftesting.String;
 
 import java.util.Stack;
 
@@ -16,7 +16,7 @@ import java.util.Stack;
  * @author Sreeja
  */
 
-public class StringReverse {
+public class StringReverse1 {
     public static void main(String args[]) {
         String a = "I am an Indian";
         
