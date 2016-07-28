@@ -10,11 +10,11 @@ package com.mycompany.myselftesting.sampleapplication;
  * @author Sreeja
  */
 public class FindingMethodsVariables {
-//    public int i = 10;
-//    public int j = 10;
-//    public int k = 10;
-//    public int l = 10;
-//    public int m = 10;
+    public int i = 10;
+    public int j = 10;
+    public int k = 10;
+    public int l = 10;
+    public int m = 10;
     
     public void a(){
         System.out.println("aaaaa");
