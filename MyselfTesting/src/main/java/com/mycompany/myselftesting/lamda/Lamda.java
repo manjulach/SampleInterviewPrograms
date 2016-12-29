@@ -14,25 +14,17 @@ import java.util.function.Supplier;
  */
 public class Lamda {
     public static void main(String[] args) {
-        System.out.println("testing Lamda's");
-      
+      System.out.println("testing Lamda's");
       System.out.println("=== RunnableTest ===");
-     
      // Anonymous Runnable
      Runnable r1 = () -> {
          System.out.println("Hello world one!");
         };
-     
      // Lambda Runnable
      Runnable r2 = () -> System.out.println("Hello world two!");
-     
      // Run em!
      r1.run();
      r2.run();
-        
-    
-     
-        
     }
     
 }

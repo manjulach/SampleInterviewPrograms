@@ -24,9 +24,6 @@ public class Testing {
         String[] array = input.split(" ");
         List<String> vowels = new ArrayList();
         
-        
-        
-        
         for (String string : array) {
             if (string.contains("i") && !string.contains("a")) {
                 vowels.add(string);
@@ -46,9 +43,7 @@ public class Testing {
         }
         vowels.removeAll(re);
         
-        vowels.forEach(s -> System.out.println(s));
-        
-        
+        vowels.forEach(s -> System.out.print(s+","));
     }
 }
 
